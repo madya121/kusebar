@@ -51,6 +51,7 @@
 	<style>
 		input {
 			width: 400px;
+            max-width: 100%;
 		}
         
         * {
