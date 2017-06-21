@@ -81,17 +81,6 @@
 
     </script>
 
-	<!-- Facebook Share script -->
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=1629662793959481";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-	<!-- End of Facebook Share script -->
-
 	<h1 style="margin-bottom: 8px;">KUSEBAR.INFO</h1>
 	<h5 style="margin-top: 0;">Website yang memberikan informasi-informasi tidak penting dan diciptakan oleh para netizen yang amat sangat kreatif.</h5>
     
@@ -126,7 +115,11 @@
             </div>
         <?php } ?>
 		
-		<br/>
+		Sukai halaman facebook kami untuk mendapatkan update berita-berita penting setiap harinya
+		<br/><br/>
+		<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fkusebar&width=200&layout=standard&action=like&size=large&show_faces=false&share=false&height=35&appId=1629662793959481" width="200" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	
+		<br/><br/>
 		
 		Sebarkan info-mu melalui website ini:<br/><br/>
 		Judul: <input id="input-title" placeholder=" Ukuran tubuhnya sangat mungil! Ternyata dia..." /><br/>
