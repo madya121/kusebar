@@ -37,14 +37,23 @@
   
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
   
-    <meta name="description"               content="Klik untuk info lebih lanjut." />
+	<link rel="icon" href="<?= $img_url ?>" type="image/x-icon" />
+  
+    <meta name="description"               content="Kunjungi halaman untuk info lebih lanjut." />
   
 	<!-- Facebook OG -->
-	<meta property="og:url"                content="<?= $url ?>" />
-	<meta property="og:type"               content="article" />
-	<meta property="og:description"        content="Klik untuk info lebih lanjut." />
-	<meta property="og:title"              content="<?= $title ?>" />
-	<meta property="og:image"              content="<?= $img_url ?>" />
+	<meta property="og:url"                	content="<?= $url ?>" />
+	<meta property="og:type"               	content="article" />
+	<meta property="og:description"        	content="Kunjungi halaman untuk info lebih lanjut." />
+	<meta property="og:title"              	content="<?= $title ?>" />
+	<meta property="og:image"              	content="<?= $img_url ?>" />
+	<meta property="og:site_name" 			content="Kusebar Info">
+	
+	<!-- Twitter -->
+	<meta name="twitter:title" 				content="<?= $title ?>">
+	<meta name="twitter:description" 		content="Kunjungi halaman untuk info lebih lanjut.">
+	<meta name="twitter:image" 				content="<?= $img_url ?>">
+	<meta name="twitter:card" 				content="summary_large_image">
     
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	
